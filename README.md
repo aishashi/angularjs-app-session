@@ -14,4 +14,28 @@ npm install
 Run the app, static content will be served by http-server on http://localhost:8000 <br>
 npm start
 
-
+Package.json<br>
+<code>
+{
+    "name": "angular-seed",
+    "private": true,
+    "version": "0.0.0",
+    "description": "A starter project for AngularJS",
+    "repository": "https://github.com/angular/angular-seed",
+    "license": "MIT",
+    "devDependencies": {
+        "http-server": "^0.9.0",
+        "protractor": "^4.0.9"
+    },
+    "scripts": {
+        "update-deps": "npm update",
+        "prestart": "npm install",
+        "start": "http-server -a localhost -p 8000 -c-1 ./",
+        "pretest": "npm install",
+        "preupdate-webdriver": "npm install",
+        "update-webdriver": "webdriver-manager update",
+        "preprotractor": "npm run update-webdriver",
+        "protractor": "protractor e2e-tests/protractor.conf.js"
+    }
+}
+</code>
