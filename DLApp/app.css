@@ -1,0 +1,32 @@
+.html, .body {
+    margin: 0;
+}
+
+.header-center {
+    text-align: center;
+}
+
+.view-create-button {
+    background-color: ghostwhite;
+    color: black;
+}
+
+.view-button {
+    background-color: #2874A6;
+    color: white;
+}
+
+.trash {
+    color: white;
+    background-color:#CB4335;
+}
+
+.add {
+    color: white;
+    background-color:#2874A6;
+}
+
+.update {
+    color: white;
+    background-color:#239B56;
+}

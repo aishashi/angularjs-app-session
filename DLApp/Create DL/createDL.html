@@ -1,0 +1,18 @@
+<div ng-controller="createDLController as createDL">
+    <div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="usr" ng-model="createDL.name" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="role" ng-model="createDL.role" placeholder="Role">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="empId" ng-model="createDL.empId" placeholder="Employee Id">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="emailId" ng-model="createDL.emailId" placeholder="Email Id">
+        </div>
+        
+        <button type="button" class="btn btn-secondary btn-md add" title="Add User" ng-click="createDL.addUser()">Add User</button>
+    </div>
+</div>
