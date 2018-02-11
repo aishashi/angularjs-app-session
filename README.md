@@ -17,12 +17,9 @@ npm start
 Package.json<br>
 <code>
 {
-    "name": "angular-seed",
+    "name": "Distribution-list-app",
     "private": true,
     "version": "0.0.0",
-    "description": "A starter project for AngularJS",
-    "repository": "https://github.com/angular/angular-seed",
-    "license": "MIT",
     "devDependencies": {
         "http-server": "^0.9.0",
         "protractor": "^4.0.9"
@@ -38,4 +35,5 @@ Package.json<br>
         "protractor": "protractor e2e-tests/protractor.conf.js"
     }
 }
+
 </code>
